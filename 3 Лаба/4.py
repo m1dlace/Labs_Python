@@ -1,4 +1,4 @@
-import string
+﻿import string
 import re
 
 class StringFormatter(object):

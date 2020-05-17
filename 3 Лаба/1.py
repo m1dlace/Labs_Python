@@ -1,4 +1,4 @@
-class Fraction(object):
+﻿class Fraction(object):
     def __init__(self, num, den):
         self.__num = num
         self.__den = den

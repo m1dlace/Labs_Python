@@ -1,4 +1,4 @@
-import re
+﻿import re
 import sys
 import PyQt5
 from PyQt5.QtCore import Qt
