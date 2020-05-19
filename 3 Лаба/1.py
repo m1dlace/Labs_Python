@@ -9,15 +9,15 @@
         g = Fraction.gcd(self.__num, self.__den)
         self.__num /= g
         self.__den /= g
-    def __neg__(self):  # отрицание(-) дроби
+    def __neg__(self):  
         return '-%d/%d' % (self.__num, self.__den)
-    def __invert__(self):  # инверсия(~) дроби
+    def __invert__(self):  
         return '%d/%d' % (self.__den, self.__num)
-    def __pow__(self, power, modulo=None):  # возведение в степень
+    def __pow__(self, power, modulo=None):
         return '%d/%d' % (self.__num ** power, self.__den ** power)
-    def __float__(self):  # превращение дроби в десятичную
+    def __float__(self): 
         return self.__num / self.__den
-    def __int__(self):  # превращение дроби в десятичную с округлением
+    def __int__(self):
         return int(self.__float__())
     @staticmethod
     def gcd(n, m):
